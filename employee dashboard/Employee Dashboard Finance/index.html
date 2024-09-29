@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard - Finance Details</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32626ae9d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <img src="profile.png" alt="Profile Picture" class="profile-img">
+                <h2>Username</h2><br>
+                <hr width="200px">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i> &emsp14;
+                        <a href="../Employee Dashboard Personal/index.html">Personal Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-tie"></i> &emsp14;
+                        <a href="../Employee Dashboard Professional/index.html">Professional Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-list-check"></i> &emsp14;
+                        <a href="../Employee Dashboard Project/index.html">Project Details</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa-solid fa-landmark"></i> &emsp14;
+                        <a href="../Employee Dashboard Finance/index.html">Finance Details</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Hello there, Username</h1>
+                <div class="header-buttons">
+                    <button>Employee Name</button>
+                    <button>Log Out</button>
+                </div>
+            </header>
+
+            <section class="finance-details">
+                <h2>Personal Details of Employee</h2><br>
+                <form>
+                    <div class="form-group">
+                        <label>Pan card</label>
+                        <input type="text" name="pan-card">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Aadhar card</label>
+                        <input type="text" name="aadhar-card">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Bank Name</label>
+                        <input type="text" name="bank-name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Branch</label>
+                        <input type="text" name="branch">
+                    </div>
+
+                    <div class="form-group">
+                        <label>IFSC Code</label>
+                        <input type="text" name="ifsc-code">
+                    </div>
+
+                    <div class="form-group">
+                        <label>CTC breakup</label>
+                        <textarea name="ctc-breakup"></textarea>
+                    </div>
+
+                    <div class="download-payslip-group">
+                        
+                        <button class="download-btn">Download</button>
+                    </div>
+                    
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

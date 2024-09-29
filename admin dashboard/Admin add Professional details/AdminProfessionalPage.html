@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="stylesprofessionaladmin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <input type="text" placeholder="Search for employees">
+            <div class="header-buttons">
+                <button>Add Employee</button>
+                <button>Admin Name</button>
+                <button>Log Out</button>
+            </div>
+        </header>
+        
+        <h2>Add a New Employee</h2>
+
+        <main>
+            <form class="employee-form">
+                <fieldset>
+                    <legend>Professional Details</legend>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="empcode">Employee code</label>
+                            <input type="number" id="empcode" name="empcode">
+                        </div>
+                        <div class="form-group">
+                            <label for="Reporting-Manager-Email">Reporting Manager Email</label>
+                            <input type="email" id="Reporting-Manager-Email" name="Reporting-Manager-Email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Company-Mail-ID">Company Mail ID</label>
+                            <input type="email" id="Company-Mail-ID" name="Company-Mail-ID">
+                        </div>
+                        <div class="form-group">
+                            <label for="Date-of-Joining">Date of Joining</label>
+                            <input type="date" id="Date-of-Joining" name="Date-of-Joining">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Office-Phone-Number">Office Phone Number</label>
+                            <input type="tel" id="Office-Phone-Number" name="Office-Phone-Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="Office-Address-Line-1">Office Address Line 1</label>
+                            <input type="text" id="Office-Address-Line-1" name="Office-Address-Line-1">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Reporting-Manager-Name">Reporting Manager Name</label>
+                            <input type="text" id="Reporting-Manager-Name" name="Reporting-Manager-Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Office-Address-Line-2">Office Address Line 2</label>
+                            <input type="text" id="Office-Address-Line-2" name="Office-Address-Line-2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Reporting-Manager-Code">Reporting Manager Code</label>
+                            <input type="number" id="Reporting-Manager-Code" name="Reporting-Manager-Code">
+                        </div>
+                        <div class="form-group">
+                            <label for="Pin-Code">Pin Code</label>
+                            <input type="number" id="Pin-Code" name="Pin-Codel">
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit">Save And Next</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

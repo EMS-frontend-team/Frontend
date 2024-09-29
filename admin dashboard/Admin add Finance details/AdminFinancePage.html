@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="stylesfinanceadmin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <input type="text" placeholder="Search for employees">
+            <div class="header-buttons">
+                <button>Add Employee</button>
+                <button>Admin Name</button>
+                <button>Log Out</button>
+            </div>
+        </header>
+        
+        <h2>Add a New Employee</h2>
+
+        <main>
+            <form class="employee-form">
+                <fieldset>
+                    <legend>Financial Details</legend>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Pan-card">Pan card</label>
+                            <input type="number" id="Pan-card" name="Pan-card">
+                        </div>
+                        <div class="form-group">
+                            <label for="Aadhar-card">Aadhar card</label>
+                            <input type="text" id="Aadhar-card" name="Aadhar-card">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Bank-Name">Bank Name</label>
+                            <input type="text" id="Bank-Name" name="Bank-Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Branch">Branch</label>
+                            <input type="text" id="Branch" name="Branch">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="IFSC-Code">IFSC Code</label>
+                            <input type="text" id="IFSC-Code" name="IFSC-Code">
+                        </div>
+                        <div class="form-group">
+                            <label for="CTC-breakup">CTC breakup</label>
+                            <input type="text" id="CTC-breakup" name="CTC-breakup">
+                        </div>
+                    </div>
+                    
+                </fieldset>
+                <button type="submit">Save And Next</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <input type="text" class="Search"   placeholder="Search for employees...">
+            <div class="header-buttons">
+                <button class="add-employee-btn">Add Employee</button>
+                <button class="admin-name-btn">Admin Name</button>
+                <button class="logout-btn">Log Out</button>
+            </div>
+        </header>
+
+    
+            <!-- Cards Section -->
+            <section class="dashboard-cards">
+                <div class="card">
+                    <img src="emp.png" alt="Employee Icon" class="card-icon">
+                    <h3>536</h3>
+                    <p>Total No. of Employees</p>
+                    <span>Full-time: 495 | New Hires: 41</span>
+                    <span>Growth: +5% this month</span>
+                </div>
+                <div class="card">
+                    <img src="pro.png" alt="Projects Icon" class="card-icon">
+                    <h3>85</h3>
+                    <p>Total projects done by company</p>
+                    <span>Completed: 60 | Ongoing: 20</span>
+                    <span>Completion Rate: 85%</span>
+                </div>
+                <div class="card">
+                    <img src="fin.png" alt="Finance Icon" class="card-icon">
+                    <h3>$5.2M</h3>
+                    <p>Total revenue generated</p>
+                    <span>Product Sales: $3.5M | Services: $1.2M</span>
+                    <span>Growth: +12% this quarter</span>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="project-title">Project Details</p><br>
+                        <span class="project-name">Employee Management <br> System (EMS)</span><br><br>
+                        <span class="team-size">Team size – 8 People</span>
+                    </div>
+                    <div class="circle-progress">
+                        <svg>
+                            <circle cx="40" cy="40" r="35"></circle>
+                            <circle cx="40" cy="40" r="35" style="stroke-dashoffset: 22;"></circle>
+                        </svg>
+                        <div class="percentage">80%</div>
+                    </div>
+                </div>
+            </section>
+
+            
+        <section class="employee-details">
+            <h2>Employee Details</h2><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Emp ID</th>
+                        <th>Name</th>
+                        <th>Company Mail</th>
+                        <th>Manager</th>
+                        <th>Current Project</th>
+                        <th>Action Buttons</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Excelr01</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Excelr02</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Excelr02</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Excelr03</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Excelr04</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Excelr05</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="update-btn">Update</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Repeat rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

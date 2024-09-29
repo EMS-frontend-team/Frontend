@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylecss.css">
+    <script src="https://kit.fontawesome.com/32626ae9d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <img src="profile.png" alt="Profile Picture" class="profile-img">
+                <h2>Username</h2><br>
+                <hr width="200px"> 
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <i class="fa-solid fa-house"></i> &emsp14;
+                        <a href="../Employee Dashboard Personal/index.html">Personal Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-tie"></i> &emsp14;
+                        <a href="../Employee Dashboard Professional/index.html">Professional Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-list-check"></i> &emsp14;
+                        <a href="../Employee Dashboard Project/index.html">Project Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-landmark"></i> &emsp14;
+                        <a href="../Employee Dashboard Finance/index.html">Finance Details</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Hello there, Username</h1>
+                <div class="header-buttons">
+                    <button>Employee Name</button>
+                    <button>Log Out</button>
+                </div>
+            </header>
+
+            <section class="project-details">
+                <h2>Personal Details of Employee</h2>
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Date of birth</label>
+                        <input type="text" name="Date of birth">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="text" name="Age">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <input type="text" name="Gender">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Current address</label>
+                        <input type="text" name="Current address">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Permanent address</label>
+                        <input type="text" name="Permanent address">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mobile Number</label>
+                        <input type="text" name="Mobile Number">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Optional Number</label>
+                        <input type="email" name="Optional Number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Employee code</label>
+                        <input type="text" name="Employee code">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Company Mail ID</label>
+                        <input type="text" name="Company Mail ID">
+                    
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

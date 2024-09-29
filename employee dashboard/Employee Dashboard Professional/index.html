@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylecss.css">
+    <script src="https://kit.fontawesome.com/32626ae9d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <img src="profile.png" alt="Profile Picture" class="profile-img">
+                <h2>Username</h2><br>
+                <hr width="200px">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i> &emsp14;
+                        <a href="../Employee Dashboard Personal/index.html">Personal Details</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa-solid fa-user-tie"></i> &emsp14;
+                        <a href="../Employee Dashboard Professional/index.html">Professional Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-list-check"></i> &emsp14;
+                        <a href="../Employee Dashboard Project/index.html">Project Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-landmark"></i> &emsp14;
+                        <a href="../Employee Dashboard Finance/index.html">Finance Details</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Hello there, Username</h1>
+                <div class="header-buttons">
+                    <button>Employee Name</button>
+                    <button>Log Out</button>
+                </div>
+            </header>
+
+            <section class="project-details">
+                <h2>Personal Details of Employee</h2>
+                <form>
+                    <div class="form-group">
+                        <label>Employee Code</label>
+                        <input type="text" name="Employee Code">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Company Mail ID</label>
+                        <input type="text" name="Company Mail ID">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Office Phone Number</label>
+                        <input type="text" name="Office Phone Number">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reporting Manager Name</label>
+                        <input type="text" name="Reporting Manager Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reporting Manager Code</label>
+                        <input type="text" name="Reporting Manager Code">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reporting Manager Email</label>
+                        <input type="text" name="Reporting Manager Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Date of Joining</label>
+                        <input type="text" name="Date of Joining">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Office Address Line 1</label>
+                        <input type="email" name="Office Address Line 1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Office Address Line 2</label>
+                        <input type="text" name="Office Address Line 2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Pin Code</label>
+                        <input type="text" name="Pin Code">
+                    
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

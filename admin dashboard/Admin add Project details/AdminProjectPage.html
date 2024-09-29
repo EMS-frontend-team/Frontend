@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="stylesprojectadmin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <input type="text" placeholder="Search for employees">
+            <div class="header-buttons">
+                <button>Add Employee</button>
+                <button>Admin Name</button>
+                <button>Log Out</button>
+            </div>
+        </header>
+        
+        <h2>Add a New Employee</h2>
+
+        <main>
+            <form class="employee-form">
+                <fieldset>
+                    <legend>Project Details</legend>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="projects">No. of previous projects done</label>
+                            <input type="number" id="projects" name="No-of-previous-projects-done">
+                        </div>
+                        <div class="form-group">
+                            <label for="Current-Project-Name">Current Project Name</label>
+                            <input type="text" id="Current-Project-Name" name="Current-Project-Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Project-code">Project code</label>
+                            <input type="text" id="Project-code" name="Project-code">
+                        </div>
+                        <div class="form-group">
+                            <label for="Start-Date">Start Date</label>
+                            <input type="date" id="Start-Date" name="Start-Date">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="End-Date">End Date</label>
+                            <input type="date" id="End-Date" name="End-Date">
+                        </div>
+                        <div class="form-group">
+                            <label for="Reporting-Manager-Name">Reporting Manager Name</label>
+                            <input type="text" id="Reporting-Manager-Name" name="Reporting-Manager-Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Reporting-Manager-Code">Reporting Manager Code</label>
+                            <input type="text" id="Reporting-Manager-Code" name="Reporting-Manager-Code">
+                        </div>
+                        <div class="form-group">
+                            <label for="Reporting-Manager-Email">Reporting Manager Email</label>
+                            <input type="email" id="Reporting-Manager-Email" name="Reporting-Manager-Email">
+                        </div>
+                    </div>
+                    
+                </fieldset>
+                <button type="submit">Save And Next</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

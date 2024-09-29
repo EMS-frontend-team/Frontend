@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylecss.css">
+    <script src="https://kit.fontawesome.com/32626ae9d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <img src="profile.png" alt="Profile Picture" class="profile-img">
+                <h2>Username</h2><br>
+                <hr width="200px">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i> &emsp14;
+                        <a href="../Employee Dashboard Personal/index.html">Personal Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-tie"></i> &emsp14;
+                        <a href="../Employee Dashboard Professional/index.html">Professional Details</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa-solid fa-list-check"></i> &emsp14;
+                        <a href="../Employee Dashboard Project/index.html">Project Details</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-landmark"></i> &emsp14;
+                        <a href="../Employee Dashboard Finance/index.html">Finance Details</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Hello there, Username</h1>
+                <div class="header-buttons">
+                    <button>Employee Name</button>
+                    <button>Log Out</button>
+                </div>
+            </header>
+
+            <section class="project-details">
+                <h2>Personal Details of Employee</h2>
+                <form>
+                    <div class="form-group">
+                        <label>No. of previous projects done</label>
+                        <input type="text" name="prev-projects">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Current Project Name</label>
+                        <input type="text" name="current-project">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Project code</label>
+                        <input type="text" name="project-code">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Start Date</label>
+                        <input type="text" name="start-date">
+                    </div>
+
+                    <div class="form-group">
+                        <label>End Date</label>
+                        <input type="text" name="end-date">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reporting Manager Name</label>
+                        <input type="text" name="manager-name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reporting Manager Code</label>
+                        <input type="text" name="manager-code">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reporting Manager Email</label>
+                        <input type="email" name="manager-email">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
